@@ -1,0 +1,22 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 30px;
+  cursor: pointer;
+
+  &:hover {
+    &:hover {
+      border: 1px solid #b7b7b7;
+    }
+    &:active {
+      border: 1px solid var(--borderActive);
+    }
+  }
+}

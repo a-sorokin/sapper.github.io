@@ -1,0 +1,15 @@
+.arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 4rem;
+  color: var(--borderHover);
+
+  &:hover {
+    color: var(--borderColor);
+  }
+  &:active {
+    color: var(--borderActive);
+  }
+}

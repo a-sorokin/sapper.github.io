@@ -1,0 +1,43 @@
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.grid {
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid var(--borderHover);
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #4c5262;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4c5262;
+  font-weight: bold;
+
+  &:hover {
+    border: 1px solid var(--borderColor);
+  }
+  &:active {
+    border: 1px solid var(--borderActive);
+  }
+}
+
+.cellClicked {
+  background-color: #bbbcc0;
+}
+
+.cellGameOver {
+  background-color: #942323;
+}

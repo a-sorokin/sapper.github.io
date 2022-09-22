@@ -1,0 +1,26 @@
+$ease: cubic-bezier(0.47, 0.01, 0, 1.01);
+
+.text {
+  cursor: default;
+  top: 20%;
+  left: 50%;
+  transform: translate3d(calc(-50% - 12px), calc(-50% + 12px), 0);
+  font-size: 10em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px #525252, 0px 0px #525252, 0px 0px #525252, 0px 0px #525252,
+    0px 0px #525252, 0px 0px #525252, 0px 0px #525252, 0px 0px #525252, 0px 0px #525252,
+    0px 0px #525252, 0px 0px #525252;
+  opacity: 0;
+  animation: revolve 2s $ease forwards;
+
+  @keyframes revolve {
+    to {
+      opacity: 1;
+      transform: translate3d(-50%, -50%, 0);
+      text-shadow: -2px 1px #525252, -3px 2px #525252, -4px 3px #525252,
+        -5px 4px #525252, -6px 5px #525252, -7px 6px #525252, -8px 7px #525252,
+        -9px 8px #525252, -10px 9px #525252, -11px 10px #525252, -12px 11px #525252;
+    }
+  }
+}

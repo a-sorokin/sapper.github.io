@@ -1,0 +1,52 @@
+.container {
+  margin-top: 30px;
+  animation-name: opacityAnimation;
+  animation-duration: 3s;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.size {
+  margin-right: 50px;
+  font-size: 2rem;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+
+  &:hover {
+    border: 1px solid var(--borderHover);
+  }
+  &:active {
+    border: 1px solid var(--borderActive);
+  }
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    transition-delay: 2s;
+    opacity: 1;
+  }
+}
+
+.bombs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.input {
+  width: 40px;
+  margin-left: 10px;
+}
