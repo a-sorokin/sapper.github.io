@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sapper.github.io/static/css/main.e0006301.css",
+    "main.js": "/sapper.github.io/static/js/main.47bd3641.js",
+    "static/js/787.2f7b59f1.chunk.js": "/sapper.github.io/static/js/787.2f7b59f1.chunk.js",
+    "index.html": "/sapper.github.io/index.html",
+    "main.e0006301.css.map": "/sapper.github.io/static/css/main.e0006301.css.map",
+    "main.47bd3641.js.map": "/sapper.github.io/static/js/main.47bd3641.js.map",
+    "787.2f7b59f1.chunk.js.map": "/sapper.github.io/static/js/787.2f7b59f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0006301.css",
+    "static/js/main.47bd3641.js"
+  ]
+}
